@@ -1,2 +1,16 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Dart dosyalarını zorunlu olarak belirleme  
+*.dart linguist-detectable=true  
+
+# Gereksiz dillerin analiz edilmesini engelleme  
+*.cpp linguist-vendored  
+*.h linguist-vendored  
+CMakeLists.txt linguist-vendored  
+*.cmake linguist-vendored  
+*.cc linguist-vendored  
+*.cxx linguist-vendored  
+*.hpp linguist-vendored  
+*.hh linguist-vendored  
+*.c linguist-vendored  
+*.h linguist-vendored  
+*.m linguist-vendored  
+*.mm linguist-vendored  
